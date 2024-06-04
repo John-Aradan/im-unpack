@@ -18,3 +18,5 @@ to run pretraining.
 ## Inference
 
 ``inference`` contains implementations for quantized inference. ``inference/vit`` contains inference implementations for pretrained ViT models on ImageNet. Use ``inference/vit/test_all.py`` to run the evaluations. ``inference/vit/check_bits.py`` computes the average bits per parameter using Huffman Encoding on quantized parameters. 
+
+``inference/llm`` contains implementations for quantized LLM inference. Place the files to ``lm_eval/models`` folder in repo ``https://github.com/EleutherAI/lm-evaluation-harness/tree/main`` to use it. 
